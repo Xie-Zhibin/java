@@ -1,5 +1,3 @@
-package learnJava;
-
 import java.util.Scanner;
 
 public class SalesTax {

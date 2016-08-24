@@ -1,5 +1,3 @@
-package learnJava;
-
 public class LoopParc {
 	public static void main (String[] args){
 		int i;
@@ -21,6 +19,6 @@ public class LoopParc {
 			System.out.println("hahahh" + i);
 			i++;
 		}
-		while(i<100);		
-	}	
+		while(i<100);
+	}
 }

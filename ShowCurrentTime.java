@@ -1,5 +1,3 @@
-package learnJava;
-
 public class ShowCurrentTime {
     public static void main(String[] args) {
         long totalMilliSeconds = System.currentTimeMillis();
