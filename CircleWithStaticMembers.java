@@ -10,9 +10,15 @@ public class CircleWithStaticMembers {
         numberOfObjects++;
     }
 
+    // Construct a circle with a specified radius
     CircleWithStaticMembers(double newRadius) {
         radius = newRadius;
         numberOfObjects++;
+    }
+
+    // Return numberOfObjects
+    static int getNumberOfObjects() {
+        return numberOfObjects;
     }
 
     // Return the area of this circle

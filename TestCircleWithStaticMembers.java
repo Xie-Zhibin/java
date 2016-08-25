@@ -4,16 +4,8 @@ public class TestCircleWithStaticMembers {
             CircleWithStaticMembers.numberOfObjects);
 
         // Create c1
-        CircleWithStaticMembers c1 = new CircleWithStaticMembers();
+        CircleWithStaticMembers c1 = new CircleWithStaticMembers(-4);
         System.out.println("Now, it become: " +
             CircleWithStaticMembers.numberOfObjects);
-        int num = 12;
-        int[] arr = new int[num];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
-        }
-        for (int e: arr) {
-            System.out.print(e);
-        }
     }
 }
