@@ -32,7 +32,7 @@ public class CircleFromSimpleGeometricObject
     }
 
     // Return diameter
-    public double getDiamter() {
+    public double getDiameter() {
         return 2 * radius;
     }
 
