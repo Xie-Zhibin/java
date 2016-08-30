@@ -12,7 +12,7 @@ public class Rectangle
     }
 
     public Rectangle(double width, double height,
-            String color, boolean filled) {
+                     String color, boolean filled) {
         this.width = width;
         this.height = height;
         setColor(color);
