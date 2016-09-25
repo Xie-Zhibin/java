@@ -12,10 +12,10 @@ public class ComputeFactorial {
     }
 
     public static long factorial(Long n) {
+        System.out.println(n);
         if (n == 0) {
             return 1;
         } else {
-            System.out.println(n);
             return n * factorial(n - 1);
         }
     }
