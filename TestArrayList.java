@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class TestArrayList {
@@ -24,12 +25,17 @@ public class TestArrayList {
 
         // Create a integer list
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        // Create a scanner
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a int: ");
+        int n = input.nextInt();
+        for (int i = 0; i < n; i++) {
             list.add(i);
         }
         list.add(20);
         list.add(0);
         list.remove(0);
         System.out.println(list.toString());
+        System.out.println("sadf" * 2);
     }
 }
